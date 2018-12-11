@@ -76,7 +76,7 @@ a:hover, a:focus, a:active {
 }
 .logo:hover, .logo:focus, .logo:active {
   background: transparent;
-  opacity: .7;
+  opacity: .8;
   transition: all 150ms ease;
 }
 
