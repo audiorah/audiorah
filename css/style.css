@@ -72,6 +72,12 @@ a:hover, a:focus, a:active {
 .logo {
   width: 100%;
   max-width: 200px;
+  border: 0;
+}
+.logo:hover, .logo:focus, .logo:active {
+  background: transparent;
+  opacity: .7;
+  transition: all 150ms ease;
 }
 
 .swatch {
