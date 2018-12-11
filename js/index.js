@@ -210,3 +210,7 @@ function calculateCurrentValue(currentTime) {
 }
 
 initPlayers(jQuery('#player-container').length);
+
+document.querySelector('.logo').addEventListener('click', function () {
+	document.getElementById('about').setAttribute('open', '');
+});
